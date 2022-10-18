@@ -4,6 +4,7 @@ year=`date +%Y `
 month=`date +%m `
 day=`date +%d `
 hour=`date +%H`
+min=`date +%M`
 now=$year-$month-$day-$hour
 
 
