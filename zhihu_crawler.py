@@ -12,7 +12,7 @@ year = now_time.year
 month = now_time.month
 day = now_time.day
 hour = now_time.hour
-
+minute = now_time.minute
 
 sess = requests.Session()
 res = sess.get(url, headers=headers)
@@ -25,5 +25,5 @@ for item in data:
     hot_list.append("{}: {}".format(item_id, item_title))
 
 output = "\n".join(hot_list)
-with open("./hotlist/{}_{}_{}_{}.txt".format(year, month, day, hour), mode="w") as f:
+with open("./hotlist/{}_{}_{}_{}_{}.txt".format(year, month, day, hour, minute), mode="w") as f:
     f.write(output)

@@ -5,7 +5,7 @@ month=`date +%m `
 day=`date +%d `
 hour=`date +%H`
 min=`date +%M`
-now=$year-$month-$day-$hour
+now=$year-$month-$day-$hour-$min
 
 
 git config --global user.email "13538898378@163.com"
