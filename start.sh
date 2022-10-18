@@ -7,8 +7,8 @@ hour=`date +%H`
 now=$year-$month-$day-$hour
 
 
-git config --global user.email ""
-git config --global user.name "actioner"
+git config --global user.email "1397796710@qq.com"
+git config --global user.name "hankangwen"
 
 git add .
 git commit -m "$now"
